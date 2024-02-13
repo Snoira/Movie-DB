@@ -39,7 +39,7 @@ const main = async () => {
 
             console.log(`The movie ${field} are currently: ${arr}`)
 
-            console.log("Would you like to \n1. Add to the list, or \n2. Remove from the list?")
+            console.log("Would you like to: \n1. Add to the list? \n2. Remove from the list?")
             let manipulation = p("Answer with the corresponding number: ")
 
             if (manipulation == "1") {
@@ -78,7 +78,7 @@ const main = async () => {
                 return;
             }
 
-            console.log(`You are updating: ${chosenMovie} \n`).
+            console.log(`You are updating: ${chosenMovie} \n`)
 
             console.log(
                 "-------------------------------------\n",
