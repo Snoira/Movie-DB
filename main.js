@@ -37,7 +37,7 @@ const main = async () => {
 
         const manipulateArr = async (field, arr) => {
 
-            console.log(`The movie ${field} are currently: ${arr}`)
+            console.log(`The movie ${field} are currently: `, arr)
 
             console.log("Would you like to: \n1. Add to the list? \n2. Remove from the list?")
             let manipulation = p("Answer with the corresponding number: ")
@@ -59,7 +59,7 @@ const main = async () => {
                 let chosenI = p("Enter the corresponding number: ")
 
                 const removedEl = arr.splice(chosenI, 1)
-                console.log(`${removedEl} has been removed from the list.`)
+                console.log(removedEl, ` has been removed from the list.`)
             } else {
                 console.log("invalid input, choose a number between 1 and 2.")
             }
@@ -154,7 +154,6 @@ const main = async () => {
         }
 
         const p = propmpt();
-
         let runApp = true;
 
         while (runApp) {
