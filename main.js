@@ -1,6 +1,6 @@
 import mongoose, { connect } from "mongoose";
 import propmpt from "prompt-sync";
-import { movieModel } from "./database.js"
+import { movieModel } from "./index.js"
 
 const main = async () => {
     try {
